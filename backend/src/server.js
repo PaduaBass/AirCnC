@@ -12,7 +12,7 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-mongoose.connect('mongodb+srv://teste:teste@cluster0-3renw.mongodb.net/test?retryWrites=true&w=majority' , {
+mongoose.connect('' , {
     useNewUrlParser: true,
     useUnifiedTopology: true, 
 });
